@@ -1,0 +1,236 @@
+%-------------------------
+% Resume in Latex
+% Author : Antonious Awad
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Antonious Awad} \\ \vspace{1pt}
+    \small (+20) 127 616 5667 $|$ \href{mailto:antonuostony1@gmail.com}{\underline{antonuostony1@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/antoniousawad/}{\underline{linkedin.com/in/antonious}} $|$
+    \href{https://github.com/antonious-awad}{\underline{github.com/antonious}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Helwan University}{Cairo, Egypt}
+      {Bachelor's Degree, Faculty of Computers and Artificial Intelligence}{Sep. 2019 -- June 2023}
+      \resumeItemListStart
+        \resumeItem{Grade: Excellent With Honors Degree with GPA 3.94}
+      \resumeItemListEnd
+    % \resumeSubheading
+    %   {Blinn College}{Bryan, TX}
+    %   {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Frontend Engineer}{Sep. 2023 -- Present}
+      {MNT - Halan}{Giza, Egypt}
+      \resumeItemListStart
+        \resumeItem{Planned, developed and maintained \href{https://shop.halan.com}{\underline{Halan Ecommerce Shop}}, creating its layout and developing multiple features throughout the app till production-ready phases using Nextjs, Shadcn and SWR.}
+        \resumeItem{Developed and actively maintained \href{https://offer.halan.io}{\underline{Halan Offers}}.}
+        \resumeItem{Vertical Ownership of Ecommerce Management Tool and Investments Portals.}
+        \resumeItem{Helping team members adopt new strategies and technologies, guiding them throughout the process.}
+        \resumeItem{Proposed and initiated a new approach to tackle delivery management in Halan app using Uber H3 Grid System.}
+        \resumeItem{Proposed and initiated a new approach to tackle delivery management in Halan app using Uber H3 Grid System.}
+        \resumeItem{Planned, developed and maintained Halan x Nokia admin portal where orders for nokia phones through Halan app are maintained, ensuring the code is well typed and clean.}
+            \resumeItemListStart
+                \resumeItem{Developed using React, axios, tanstack-query and ant-design for UI library.}\\[1.5ex]
+            \resumeItemListEnd
+        \resumeItem{Developed components for Halan’s Admin-Facing UI library along with its corresponding unit tests using jest.}
+        \resumeItem{Founded and actively maintained Halan’s Client Facing UI Library and Utilities Library offering better UX / DX for client-facing applications.}
+        \resumeItem{Management of Halan’s Frontend Monorepo using NX.}
+        \resumeItem{Refactored Investment Portal to cater for multiple investment flows, future-proofing it and making it dynamic for future investment flows.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+   \resumeSubSubheading
+    {Intern Frontend Engineer}{Aug 2023 - Sep 2023}
+    \resumeItemListStart
+       \resumeItem{Clean Code using React with Typescript.}
+       \resumeItem{Well Typed Code.}
+       \resumeItem{Implemented Responsive Design.}
+       \resumeItem{State Management using React Context.}
+    \resumeItemListEnd
+   \resumeSubHeadingListEnd
+%-------------------------------------------
+% \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Information Technology Support Specialist}{Sep. 2018 -- Present}
+%       {Southwestern University}{Georgetown, TX}
+%       \resumeItemListStart
+%         \resumeItem{Communicate with managers to set up campus computers used on campus}
+%         \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+%         \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+%     \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+%       {Southwestern University}{Georgetown, TX}
+%       \resumeItemListStart
+%         \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+%         \resumeItem{Developed a game in Java to test the generated dungeons}
+%         \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%         \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+%         \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+%         \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%       \resumeItemListEnd
+
+%   \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://antonious-awad.github.io/flappy-bird/}{\underline{Flappy-bird}}} $|$ \emph{Vanilla JS, Canvas Api, ES Modules}}{Feb. 2025}
+          \resumeItemListStart
+            \resumeItem{Developed a web application using Vanilla JS utilizing new ES Modules structure.}
+            \resumeItem{Implemented Game Physics and score calculation using Canvas API.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{\href{https://github.com/Antonious-Awad/printf}{\underline{Printf}}} $|$ \emph{C}}{July 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a clone of C lang's printf function.}
+            \resumeItem{Fully developed from scratch.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Swapify-Dashboard} $|$ \emph{React, Antd, Tanstack-query, Axios, Cloudinary}}{June 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a Web Application for management of a trading system }
+            \resumeItem{Explored Ways to remotely host assets using Cloudinary}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Javascript, Typescript, Git, HTML, CSS, BASH, C/C++, Python, SQL} \\
+     \textbf{Frameworks}{: React, NextJs, Node.js, Tailwind CSS } \\
+     \textbf{Developer Tools}{: Git, Docker, VS Code, Github Workflows, Pino Logger, Storybook, Fedora Linux, Ubuntu} \\
+     \textbf{Libraries}{: Antd, Shadcn, Radix-ui, SWR, Tanstack-query, react-hook-form, zod, ky, axios}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
